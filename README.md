@@ -1,16 +1,34 @@
-# Finance Backend API
+# Finance Dashboard Backend API
 
-## Features
-- JWT Authentication
-- Role-Based Access Control
+## 🚀 Overview
+This project is a backend system for a finance dashboard that supports user management, role-based access control, financial record management, and analytics APIs.
+
+## 🧩 Features
+- User Authentication (JWT)
+- Role-Based Access Control (Viewer, Analyst, Admin)
 - Financial Records CRUD
-- Dashboard Summary API
+- Dashboard Summary APIs (Income, Expense, Balance)
+- Category-wise Aggregation
+- Secure API design
 
-## Roles
-- Viewer: Read only
-- Analyst: Read + analytics
-- Admin: Full access
+## 🏗️ Tech Stack
+- Node.js
+- Express.js
+- MySQL
+- JWT Authentication
 
-## Setup
-npm install
-npm start
+## 🔐 Roles & Permissions
+| Role    | Permissions |
+|--------|------------|
+| Viewer | View records |
+| Analyst | View + analytics |
+| Admin  | Full access |
+
+## 📊 APIs
+- `/api/users/register`
+- `/api/users/login`
+- `/api/records`
+- `/api/dashboard/summary`
+
+## ⚙️ Setup
+1. Install dependencies:
